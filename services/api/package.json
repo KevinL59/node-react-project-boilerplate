@@ -1,0 +1,27 @@
+{
+  "name": "test-birdie-tmp",
+  "version": "0.0.1",
+  "description": "test for birdie",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node -r dotenv/config dist/index.js",
+    "test": "mocha -r ts-node/register src/**/*.spec.ts"
+  },
+  "author": "Kevin Letupe",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^10.12.18",
+    "cors": "^2.8.5",
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.1.7",
+    "@types/mocha": "^5.2.5",
+    "expect": "^23.6.0",
+    "mocha": "^5.2.0",
+    "supertest": "^3.3.0",
+    "ts-node": "^7.0.1",
+    "typescript": "^3.2.2"
+  }
+}
